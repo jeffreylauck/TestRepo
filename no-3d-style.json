@@ -1,12 +1,6 @@
 {
   "version": 8,
   "name": "Basic-No3D",
-  "sources": {
-    "openmaptiles": {
-      "type": "vector",
-      "url": "http://localhost:8082/data/hk-vector.json"
-    }
-  },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "http://localhost:8082/fonts/{fontstack}/{range}.pbf",
   "layers": [
