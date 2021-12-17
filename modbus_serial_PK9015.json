@@ -1,0 +1,160 @@
+{
+  "server": {
+    "name": "Modbus Default Server",
+    "type": "serial",
+    "method": "rtu",
+    "port": "/dev/ttyS0",
+    "timeout": 3,
+    "baudrate": 9600,
+    "stopbits": 1,
+    "bytesize": 8,
+    "parity": "N",
+    "strict": true,
+    "byteOrder": "BIG",
+    "wordOrder": "BIG",
+    "devices": [
+      {
+        "unitId": 90,
+        "deviceName": "Current Monitor||PK9015",
+        "attributesPollPeriod": 3600000,
+        "timeseriesPollPeriod": 60000,
+        "sendDataOnlyOnChange": true,
+        "connectAttemptTimeMs": 5000,
+        "connectAttemptCount": 3,
+        "waitAfterFailedAttemptsMs": 5000,
+        "attributes": [
+          {
+            "tag": "Type",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 1
+          },
+          {
+            "tag": "Range",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 2
+          }],
+          "timeseries": [
+          {
+            "tag": "Channel 1",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 3
+          },
+          {
+            "tag": "Channel 2",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 4
+          },
+          {
+            "tag": "Channel 3",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 5
+          },
+          {
+            "tag": "Channel 4",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 6
+          },
+          {
+            "tag": "Channel 5",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 7
+          },
+          {
+            "tag": "Channel 6",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 8
+          },
+          {
+            "tag": "Channel 7",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 9
+          },
+          {
+            "tag": "Channel 8",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 10
+          },
+          {
+            "tag": "Channel 9",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 11
+          },
+          {
+            "tag": "Channel 10",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 12
+          },
+          {
+            "tag": "Channel 11",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 13
+          },
+          {
+            "tag": "Channel 12",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 14
+          },
+          {
+            "tag": "Channel 13",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 15
+          },
+          {
+            "tag": "Channel 14",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 16
+          },
+          {
+            "tag": "Channel 15",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 17
+          },
+          {
+            "tag": "Channel 16",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 18
+          }
+        ],
+        "#timeseries": [],
+        "attributeUpdates": [],
+        "rpc": []
+      }
+    ]
+  }
+}
