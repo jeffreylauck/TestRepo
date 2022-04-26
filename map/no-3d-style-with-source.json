@@ -4,11 +4,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "http://192.168.1.220:8082/data/hk-vector.json"
+      "url": "http://192.168.0.24:8082/data/hk-vector.json"
     }
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
-  "glyphs": "http://192.168.1.220:8082/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "http://192.168.0.24:8082/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
